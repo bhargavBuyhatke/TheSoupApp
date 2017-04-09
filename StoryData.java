@@ -16,6 +16,35 @@ public class StoryData {
     String article_image_url;
     String article_title;
     String num_articles;
+    String latest_substory;
+
+
+    public String getStoryName() {
+
+        return story_name;
+
+    }
+
+    public String getSubStoryName() {
+        return substory_name;
+    }
+
+    public String getNumArticle() {
+        return num_articles;
+    }
+
+    public String getTime() {
+        return latest_substory;
+    }
+
+    public String getImageUrl() {
+        return image_url;
+    }
+
+    public String getArticleImageUrl(){
+        return article_image_url;
+    }
+
 
 }
 
