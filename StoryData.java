@@ -17,6 +17,7 @@ public class StoryData {
     String article_title;
     String num_articles;
     String latest_substory;
+    String active;
 
 
     public String getStoryName() {
@@ -43,6 +44,14 @@ public class StoryData {
 
     public String getArticleImageUrl(){
         return article_image_url;
+    }
+
+    public String getStoryId(){
+        return story_id;
+    }
+
+    public String getFollowStatus(){
+        return active;
     }
 
 

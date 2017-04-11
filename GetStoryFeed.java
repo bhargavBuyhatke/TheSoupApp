@@ -12,4 +12,9 @@ public class GetStoryFeed {
     String error;
 
 
+    public List<StoryData> getStoryDataList(){
+        return data;
+    }
+
+
 }
