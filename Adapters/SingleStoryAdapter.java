@@ -45,6 +45,7 @@ public class SingleStoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private Context mcontext;
     private String storyTitle;
     private String followstatus;
+    private StoryTitle = "";
     // private List<Substories> mSubstories;
 
 
@@ -180,7 +181,7 @@ public class SingleStoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
 
         final Substories mSubstories = substories.get(position);
-        String StoryTitle = storyTitle;
+        StoryTitle = storyTitle;
         String Time = mSubstories.getTime();
         String substoryTitle = mSubstories.getSubstoryName();
         int NumberofArticles = mSubstories.getNumberofArticles();
