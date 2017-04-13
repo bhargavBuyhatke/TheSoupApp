@@ -1,25 +1,24 @@
-package in.thesoup.thesoup;
+package in.thesoup.thesoup.NetworkCalls;
 
-import android.app.Application;
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.TextView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
-import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.gson.Gson;
 
 import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import in.thesoup.thesoup.SoupContract;
+import in.thesoup.thesoup.GSONclasses.FeedGSON.StoryData;
+import in.thesoup.thesoup.Adapters.StoryFeedAdapter;
+import in.thesoup.thesoup.gsonConversion;
 
 /**
  * Created by Jani on 06-04-2017.
@@ -32,6 +31,8 @@ public class Networkutils {
     public Networkutils(Context context, List<StoryData> storyData){
         this.mcontext = context;
         this.mStoryData= storyData;
+
+
     }
 
    public void getFeed(final StoryFeedAdapter feedAdapter) {
@@ -167,5 +168,6 @@ public class Networkutils {
 
 
     }
+
 
 }

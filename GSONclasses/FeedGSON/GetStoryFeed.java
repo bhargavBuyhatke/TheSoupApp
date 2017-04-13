@@ -1,4 +1,4 @@
-package in.thesoup.thesoup;
+package in.thesoup.thesoup.GSONclasses.FeedGSON;
 
 import java.util.List;
 

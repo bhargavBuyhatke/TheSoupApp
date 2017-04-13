@@ -1,4 +1,4 @@
-package in.thesoup.thesoup;
+package in.thesoup.thesoup.GSONclasses.FeedGSON;
 
 /**
  * Created by Jani on 06-04-2017.

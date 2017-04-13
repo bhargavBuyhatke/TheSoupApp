@@ -1,4 +1,4 @@
-package in.thesoup.thesoup;
+package in.thesoup.thesoup.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +21,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Arrays;
+
+import in.thesoup.thesoup.R;
 
 import static android.R.attr.data;
 

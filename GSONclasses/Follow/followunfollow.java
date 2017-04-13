@@ -1,4 +1,4 @@
-package in.thesoup.thesoup;
+package in.thesoup.thesoup.GSONclasses.Follow;
 
 import java.util.List;
 
